@@ -575,8 +575,9 @@ ul {
   fill:#F4F4FD;
 
 }
-.link-label{color:#4d5ae5; 
+.input-backdrop:focus + .icon-backdrop {fill: #4D5AE5
 }
+.input-backdrop:focus + .icon-backdrop {fill: #4D5AE5}
 .button-backdrop{
   margin: 0 auto;
   display: block;
