@@ -507,6 +507,8 @@ ul {
 }
 .backdrop-icon:hover,
 .backdrop-icon:focus{fill: #ffffff}
+.icon-backdrop:hover,
+.icon-backdrop:focus{fill: #4D5AE5;}
 .backdrop-form{ margin-bottom: 8px;
 }
 .backdrop-label{ font-size: 12px;
@@ -586,7 +588,12 @@ input[type="checkbox"]:checked {
 }
 .link-label{color:#4d5ae5; 
 }
-.button-backdrop{display: block;
+.button-backdrop{
+  display: block;
+  border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
@@ -599,4 +606,44 @@ input[type="checkbox"]:checked {
   background-color: #4D5AE5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop-footer-text{margin-bottom: 16px;
+  font-weight: 500; 
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;}
+.backdrop-footer-form{display: flex;
+  gap: 24px; }
+.backdrop-footer-email{
+  width: 264px; 
+  height: 40px; 
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em; 
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.E-mail{ color: #ffffff;
+}
+.backdrop-button-form{ min-width: 165px;
+  height: 40px; 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+}
+.backdrop-button-icon{margin-left: 16px;
 }
